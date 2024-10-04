@@ -2,10 +2,12 @@
 
 Idea is create plugin form modx (can be ported to any or none) to import product from non strict csv file, since job description was mention everytime is filled different, and cannot to be strict by any part of side. 
 
-Each column of product row can be splitted into different ways and each result can be assigned to specific existed tv field or tv field of page, with oportnity of setp that this must be created as filter parametr, and then asign it to category then fill up product, this is the pipeline of product in modx with shop plugin "minishop2". MUST USE existing
+Each column of product row can be splitted into different ways and each result can be assigned to specific existed tv field or tv field of page, with opportunity of setup as filter parametr. Filter pipeline is asign create filer to category then fill can be filled up in product, this is the pipeline of product in modx with shop plugin "minishop2".
 
 
 ## Project requiremnts
+
+- Vanila JS
 - Use built-in modx (modx itself, and it plugins) methods to creating/updating/assigning any entity.
 - Every new bulk upload, can be configured to filled up correctly.
 - Each column of row can be splitted, into some times, and can be each splitted item assigned to specific tv or filter for minishop2 plugin.
@@ -19,6 +21,7 @@ Will be in feature
 
 
 ## Prototytpe
+
 - Upload file in memory
 - Get rows by chunks to prevent memory leak.
 - allow split each column in as many times as needed.
@@ -60,4 +63,3 @@ Please make sure to update tests as appropriate.
 - Resource Management
 - Memory Management
 - Database Optimization
-- 
